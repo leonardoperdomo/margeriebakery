@@ -34,13 +34,24 @@ header .logo h1{
 }
 
 header .icons-header{
-    max-width: 30%;
+    max-width: 40%;
     margin: 20px 0px;
     order: 6;
 }
 
-header .icons-headerShop{
-    width: fit-content;
+.icons-header a{
+    padding: 10px;
+}
+
+/* personalizacion boton de buscar*/
+.btn-outline-success{
+    --bs-btn-color: black;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: unset;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-disabled-color: black;
+    --bs-btn-active-bg: unset;
 }
 
 main{
@@ -190,16 +201,21 @@ main .suscription{
     flex-direction: row;
     background-color: #46B1C9;
     width: 80%;
-    height: 100px;
+    padding-bottom: 10px;
 }
 
-.suscription h3{
+.suscription p{
     margin-top: 30px;
     margin-left: 20px;
 }
 
 .suscription div{
     margin-top: 30px;
+}
+
+.suscription div input{
+    margin: 1px;
+    border-radius: 4px;
 }
 
 footer{
@@ -241,9 +257,7 @@ footer div p{
         }
 
     header .logo h1{
-        font-size: 18px;
         margin-top: 0px;
-        margin-left: 0px;
         order: 2;
         } 
 
