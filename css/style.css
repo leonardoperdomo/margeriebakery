@@ -290,6 +290,15 @@ footer div p{
         text-align: justify;
     }
 
+    .boxArticulos{
+        width: 350px;
+    }
+    
+    #articulosDestacados img{
+        width: 340px;
+        height: 240px;
+    }        
+
     main .suscription{
             width: 100%;
             height: auto;
