@@ -39,10 +39,6 @@ header .icons-header{
     order: 6;
 }
 
-.icons-header a{
-    padding: 10px;
-}
-
 /* personalizacion boton de buscar*/
 .btn-outline-success{
     --bs-btn-color: black;
@@ -71,6 +67,19 @@ main{
     background-color: #84C0C6;
     width: 80%;
     padding: 70px;
+}
+
+.formContacto input{
+    width: fit-content;
+}
+
+.formContacto textarea{
+    width: fit-content;
+    ;
+}
+
+.formContacto button{
+    width: fit-content;
 }
 
 .containerMain{
@@ -260,7 +269,7 @@ footer div p{
         margin-top: 0px;
         order: 2;
         } 
-
+    
     .navbar{
         order: -3;
         }
@@ -268,6 +277,18 @@ footer div p{
     .mainboxes{
         width: 100%;
         }
+    
+    #promoBancaria img{
+        float: unset;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 400px;
+        }    
+    
+    #promoBancaria p{
+        margin: 20px;
+        text-align: justify;
+    }
 
     main .suscription{
             width: 100%;
