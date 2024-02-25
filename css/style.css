@@ -32,7 +32,7 @@ header .logo h1{
     width: fit-content;
     border-radius: 10px;
     display: block;
-    margin-top: 30px; /* prueba display m top y left */
+    margin-top: 30px;
     margin-left: 420px;
 }
 
@@ -40,6 +40,11 @@ header .icons-header{
     max-width: 40%;
     margin: 20px 0px;
     order: 6;
+}
+
+.icons-header .d-flex{
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* personalizacion boton de buscar*/
@@ -112,6 +117,10 @@ main{
     flex-wrap: wrap;
     height: auto;
     margin: 10px;
+    padding: 10px;
+}
+
+.containerSucursales div{
     padding: 10px;
 }
 

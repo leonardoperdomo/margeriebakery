@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 80px auto 150px;
+    grid-template-areas: 
+    "nav header header header"
+    "nav main main main"
+    "footer footer footer footer";
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    padding: 10px;
+    background-color: #F2E2D2;
+}
+
+.icons-header .d-flex{
+    align-items: center;
+}
+
+.btn-outline-success{
+    --bs-btn-color: black;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: unset;
+    --bs-btn-hover-border-color: black;
+    --bs-btn-active-border-color: black;
+    --bs-btn-disabled-color: black;
+    --bs-btn-active-bg: unset;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #84C0C6;
+}
+
+main{
+    grid-area: main;
+    background-color: 9AB1B3;
+}
+
+main section h3{
+    text-align: center;
+}
+
+#articulosDestacados{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerArticulosDestacados h3{
+    text-align: center;
+}
+
+.carousel{
+    height: 200px;
+}
+
+.carousel .carousel-inner img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 9px;
+  }
+
+.boxArticulos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFF;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxArticulos p{
+    font-weight: 500;
+}
+
+.boxArticulos .botonComprar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #46B1C9;
+    border-radius: 8px;
+    width: 90px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botonComprar a{
+    text-decoration: none;
+}
+
+#articulosDestacados img{
+    object-fit: cover;
+    width: 190px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    grid-area: footer;
+    background-color: F2E2D2;
+}
+
+footer div{
+    margin-left: 20px;
+}
+
+footer div:last-of-type{
+    margin-right: 10px;
+    margin-top: 40px;
+}
