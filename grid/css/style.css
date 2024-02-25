@@ -9,7 +9,7 @@ body{
     grid-template-columns: 20% auto 20%;
     grid-template-rows: 80px auto 150px;
     grid-template-areas: 
-    "nav header header header"
+    "header header header header"
     "nav main main main"
     "footer footer footer footer";
     row-gap: 10px;
@@ -50,6 +50,23 @@ header{
 nav{
     grid-area: nav;
     background-color: #84C0C6;
+}
+
+nav div{
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 3px;
+    text-align: center;    
+}
+
+nav ul div:hover{
+    background-color: #ebebeb;
+}
+
+nav ul a:visited{
+    color: black;
 }
 
 main{

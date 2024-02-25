@@ -4,6 +4,10 @@
     font-family: 'Sora', sans-serif;
 }
 
+a:visited{
+    color: black;
+}
+
 header{
     display: flex;
     flex-wrap: nowrap;  
