@@ -31,6 +31,9 @@ header .logo h1{
 .bg-body-tertiary{ 
     width: fit-content;
     border-radius: 10px;
+    display: block;
+    margin-top: 30px; /* prueba display m top y left */
+    margin-left: 420px;
 }
 
 header .icons-header{
@@ -266,12 +269,16 @@ footer div p{
         }
 
     header .logo h1{
+        margin-left: 90px;
         margin-top: 0px;
         order: 2;
         } 
     
     .navbar{
         order: -3;
+        position: fixed;
+        margin-top: 30px;
+        margin-left: 10px;
         }
     
     .mainboxes{
@@ -282,7 +289,7 @@ footer div p{
         float: unset;
         margin-left: 10px;
         margin-right: 10px;
-        width: 400px;
+        width: 370px;
         }    
     
     #promoBancaria p{
