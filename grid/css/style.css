@@ -65,7 +65,7 @@ nav ul div:hover{
     background-color: #ebebeb;
 }
 
-nav ul a:visited{
+a:visited{
     color: black;
 }
 

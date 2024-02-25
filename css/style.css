@@ -271,7 +271,6 @@ footer div p{
 @media (max-width: 480px){
     header{
         flex-direction: row;
-        /* align-items: unset; */
         max-height: 20%;
         }
 
@@ -331,3 +330,21 @@ footer div p{
         }
     
 }
+
+@media (max-width: 380px){
+    header{
+        flex-direction: row;
+        max-width: 100%;
+        }
+    
+    #promoBancaria img{
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 340px;
+        }
+    
+    header .logo h1{
+        font-size: 24px;
+        }
+        
+}   
