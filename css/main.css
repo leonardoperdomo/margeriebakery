@@ -22,8 +22,8 @@ header {
 }
 @media (max-width: 480px) {
   header {
-    flex-direction: row;
-    max-height: 20%;
+    flex-direction: column;
+    max-height: 200px;
   }
 }
 @media (max-width: 380px) {
@@ -60,6 +60,11 @@ header .icons-header {
   max-width: 40%;
   margin: 20px 0px;
   order: 6;
+}
+@media (max-width: 480px) {
+  header .icons-header {
+    max-width: unset;
+  }
 }
 @media (max-width: 380px) {
   header .icons-header {

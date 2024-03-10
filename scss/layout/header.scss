@@ -10,8 +10,8 @@ header{
     background-color: map-get($colores, primario);
     padding: 10px;
     @include media-query-mobile{
-        flex-direction: row;
-        max-height: 20%;
+        flex-direction: column;
+        max-height: 200px;
     }
     @include media-query-mobile-s{
         max-height: 200px;
@@ -41,6 +41,9 @@ header{
             max-width: 40%;
             margin: 20px 0px;
             order: 6;
+            @include media-query-mobile{
+                max-width: unset;
+            }
             @include media-query-mobile-s{
                 max-width: unset;
                 margin: 20px -20px;
@@ -51,7 +54,7 @@ header{
             align-items: center;
         }
 }
-//cambioss
+
 .container-fluid{
     height: 30px;
     @include media-query-mobile{
