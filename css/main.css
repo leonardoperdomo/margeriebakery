@@ -28,7 +28,8 @@ header {
 }
 @media (max-width: 380px) {
   header {
-    flex-direction: row;
+    max-height: 200px;
+    flex-direction: column;
     max-width: 100%;
   }
 }
@@ -51,7 +52,8 @@ header .logo h1 {
 }
 @media (max-width: 380px) {
   header .logo h1 {
-    font-size: 24px;
+    font-size: 28px;
+    margin-left: 140px;
   }
 }
 header .icons-header {
@@ -70,6 +72,20 @@ header .d-flex {
   align-items: center;
 }
 
+.container-fluid {
+  height: 30px;
+}
+@media (max-width: 480px) {
+  .container-fluid {
+    height: unset;
+  }
+}
+@media (max-width: 380px) {
+  .container-fluid {
+    height: unset;
+  }
+}
+
 @media (max-width: 480px) {
   .navbar {
     order: -3;
@@ -82,18 +98,18 @@ header .d-flex {
   width: fit-content;
   border-radius: 10px;
   display: block;
-  margin-top: 30px;
+  margin-top: 45px;
   margin-left: 420px;
 }
 @media (max-width: 480px) {
   .bg-body-tertiary {
-    margin-top: 10px;
+    margin-top: 35px;
     margin-left: 15px;
   }
 }
 @media (max-width: 380px) {
   .bg-body-tertiary {
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 8px;
   }
 }
@@ -265,7 +281,7 @@ main {
 
 .buttonUp {
   position: fixed;
-  top: 600px;
+  top: 540px;
   right: 10px;
   z-index: 100;
 }
