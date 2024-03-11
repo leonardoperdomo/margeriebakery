@@ -64,12 +64,13 @@ header .icons-header {
 @media (max-width: 480px) {
   header .icons-header {
     max-width: unset;
+    margin: -10px -20px;
   }
 }
 @media (max-width: 380px) {
   header .icons-header {
     max-width: unset;
-    margin: 20px -20px;
+    margin: -10px -20px;
   }
 }
 header .d-flex {
@@ -176,30 +177,6 @@ main {
   text-align: justify;
 }
 
-#promoBancaria img {
-  max-width: 100%;
-  float: left;
-  margin-left: 20px;
-  margin-right: 30px;
-  width: 300px;
-  border-radius: 5px;
-}
-@media (max-width: 480px) {
-  #promoBancaria img {
-    float: unset;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 370px;
-  }
-}
-@media (max-width: 380px) {
-  #promoBancaria img {
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 340px;
-  }
-}
-
 #articulosDestacados {
   display: flex;
   flex-direction: row;
@@ -246,17 +223,20 @@ main {
   display: flex;
   justify-content: space-around;
   color: white;
-  margin: 10px;
-  padding: 15px;
+  padding: 5px;
   font-size: 18px;
   background-color: #46B1C9;
   border-radius: 8px;
   width: 90px;
+  height: 35px;
   text-align: center;
   text-decoration: none;
 }
 .botonComprar a {
   text-decoration: none;
+}
+.botonComprar:hover {
+  background-color: rgb(98, 200, 207);
 }
 
 .suscription {
@@ -314,6 +294,40 @@ div {
   }
   div p {
     margin-top: 30px;
+  }
+}
+
+#promoBancaria img {
+  max-width: 100%;
+  float: left;
+  margin-left: 20px;
+  margin-right: 30px;
+  width: 300px;
+  border-radius: 5px;
+}
+@media (max-width: 480px) {
+  #promoBancaria img {
+    float: unset;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 370px;
+  }
+}
+@media (max-width: 380px) {
+  #promoBancaria img {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 340px;
+  }
+}
+@media (max-width: 480px) {
+  #promoBancaria p {
+    padding: 10px;
+  }
+}
+@media (max-width: 380px) {
+  #promoBancaria p {
+    padding: 10px;
   }
 }
 
