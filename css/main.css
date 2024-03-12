@@ -39,7 +39,7 @@ header .logo h1 {
   font-size: 30px;
   margin-top: 10px;
   margin-left: 30px;
-  color: black;
+  color: #000000;
   font-weight: 600;
   order: -1;
 }
@@ -153,7 +153,7 @@ main {
 }
 .mainboxes h2 {
   text-align: center;
-  color: white;
+  color: #FFFFFF;
   padding: 10px;
 }
 
@@ -164,7 +164,6 @@ main {
   justify-content: center;
   margin-bottom: 30px;
   align-items: center;
-  width: 100%;
   height: auto;
 }
 .containerMain img {
@@ -173,6 +172,7 @@ main {
   height: auto;
 }
 .containerMain p {
+  padding: 10px;
   margin: 10px;
   text-align: justify;
 }
@@ -183,7 +183,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
-  background-color: 9AB1B3;
+  background-color: #84C0C6;
 }
 #articulosDestacados img {
   object-fit: cover;
@@ -204,7 +204,7 @@ main {
   flex-wrap: wrap;
   padding: 5px;
   margin: 5px;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   width: 200px;
   border-radius: 10px;
   justify-content: center;
@@ -222,21 +222,23 @@ main {
 .botonComprar {
   display: flex;
   justify-content: space-around;
-  color: white;
+  align-items: center;
+  color: #FFFFFF;
   padding: 5px;
   font-size: 18px;
-  background-color: #46B1C9;
+  background-color: #C5C6C5;
   border-radius: 8px;
   width: 90px;
-  height: 35px;
+  height: 45px;
   text-align: center;
   text-decoration: none;
+  transition: background-color 1s;
 }
 .botonComprar a {
   text-decoration: none;
 }
 .botonComprar:hover {
-  background-color: rgb(98, 200, 207);
+  background-color: #b8c5c5;
 }
 
 .suscription {
@@ -264,6 +266,12 @@ main {
   border-radius: 4px;
 }
 
+.btn-light {
+  --bs-btn-bg: #C5C6C5;
+  --bs-btn-border-color: unset;
+  --bs-btn-hover-bg: #b8c5c5;
+}
+
 .buttonUp {
   position: fixed;
   top: 540px;
@@ -282,15 +290,15 @@ footer {
 div {
   margin: 15px;
 }
+div a {
+  text-decoration: none;
+}
+div li {
+  list-style-type: none;
+}
 @media (max-width: 380px) {
   div {
     margin: 10px;
-  }
-  div li {
-    list-style-type: none;
-  }
-  div a {
-    text-decoration: none;
   }
   div p {
     margin-top: 30px;
