@@ -24,7 +24,7 @@ header{
             font-size: 30px;
             margin-top: 10px;
             margin-left: 30px;
-            color: black;
+            color: map-get($colores, cuaternario);
             font-weight: 600;
             order: -1;
             @include media-query-mobile{

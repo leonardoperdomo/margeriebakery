@@ -1,5 +1,5 @@
 footer{
-    background-color: #F2E2D2;
+    background-color: map-get($colores, primario);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -7,14 +7,14 @@ footer{
     }
         div{
         margin: 15px;
-        @include media-query-mobile-s{
-        margin: 10px;
-            li{
-            list-style-type: none;
-            }
             a{
                 text-decoration: none;
             }
+            li{
+                list-style-type: none;
+            }
+        @include media-query-mobile-s{
+        margin: 10px;
             p{
                 margin-top: 30px;
             }

@@ -2,12 +2,12 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #C5C6C5;
+    background-color: map-get($colores, secundario);
     width: 100%;
 }
 
 .mainboxes{
-    background-color: #84C0C6;
+    background-color: map-get($colores, terciario);
     width: 80%;
     @include media-query-mobile{
         width: 100%;
@@ -18,7 +18,7 @@ main{
         }
         h2{
             text-align: center;
-            color: white;
+            color: map-get($colores, quinario);
             padding: 10px;
         }
 }
@@ -30,7 +30,6 @@ main{
     justify-content: center;
     margin-bottom: 30px;
     align-items: center;
-    width: 100%;
     height: auto;
         img{
         width: 90%;
@@ -38,6 +37,7 @@ main{
         height: auto;
         }
         p{
+            padding: 10px;
             margin: 10px;
             text-align: justify;
         }
@@ -50,7 +50,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
-    background-color: 9AB1B3;
+    background-color: map-get($colores, terciario);
         img{
         object-fit: cover;
         width: 190px;
@@ -69,7 +69,7 @@ main{
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
-    background-color: #FFF;
+    background-color: map-get($colores, quinario);
     width: 200px;
     border-radius: 10px;
     justify-content: center;
@@ -85,27 +85,29 @@ main{
 .botonComprar{
     display: flex;
     justify-content: space-around;
-    color: white;
+    align-items: center;
+    color: map-get($botones, terciario);
     padding: 5px;
     font-size: 18px;
-    background-color: #46B1C9;
+    background-color: map-get($botones, primario);
     border-radius: 8px;
     width: 90px;
-    height: 35px;
+    height: 45px;
     text-align: center;
     text-decoration: none;
+    transition: background-color 1s;
         a{
         text-decoration: none;
         } 
         &:hover{
-            background-color: rgb(98, 200, 207);
+            background-color: map-get($botones, secundario);
         }
 }
 
 .suscription{
     display: flex;
     flex-direction: row;
-    background-color: #46B1C9;
+    background-color: map-get($colores, senario);
     width: 80%;
     padding-bottom: 10px;
     @include media-query-mobile{
@@ -123,6 +125,13 @@ main{
                 border-radius: 4px;
                 }
         }        
+}
+
+.btn-light{
+    --bs-btn-bg: #C5C6C5;
+    --bs-btn-border-color: unset;
+    --bs-btn-hover-bg: #b8c5c5;
+    
 }
 
 .buttonUp{
