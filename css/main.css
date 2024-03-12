@@ -8,6 +8,10 @@ a:visited {
   color: black;
 }
 
+a {
+  color: black;
+}
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -232,13 +236,13 @@ main {
   height: 45px;
   text-align: center;
   text-decoration: none;
-  transition: background-color 1s;
+  transition: background-color 2s;
 }
 .botonComprar a {
   text-decoration: none;
 }
 .botonComprar:hover {
-  background-color: #b8c5c5;
+  background-color: #98a5a5;
 }
 
 .suscription {
