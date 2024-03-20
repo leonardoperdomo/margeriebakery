@@ -12,6 +12,10 @@ a {
   color: black;
 }
 
+h3 {
+  font-size: 19px;
+}
+
 header {
   display: flex;
   flex-wrap: nowrap;
@@ -23,6 +27,7 @@ header {
   width: 100%;
   background-color: #F2E2D2;
   padding: 10px;
+  z-index: 1000000;
 }
 @media (max-width: 480px) {
   header {
@@ -83,7 +88,7 @@ header .d-flex {
 }
 
 .container-fluid {
-  height: 30px;
+  height: 60px;
 }
 @media (max-width: 480px) {
   .container-fluid {
@@ -290,21 +295,20 @@ footer {
   justify-content: space-around;
   align-content: center;
 }
-
-div {
+footer div {
   margin: 15px;
 }
-div a {
+footer a {
   text-decoration: none;
 }
-div li {
+footer li {
   list-style-type: none;
 }
 @media (max-width: 380px) {
-  div {
+  footer {
     margin: 10px;
   }
-  div p {
+  footer p {
     margin-top: 30px;
   }
 }
@@ -341,6 +345,14 @@ div li {
   #promoBancaria p {
     padding: 10px;
   }
+}
+
+.containerContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
 }
 
 .formContacto {

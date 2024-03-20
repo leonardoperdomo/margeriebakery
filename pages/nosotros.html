@@ -5,6 +5,7 @@
       <meta name="description" content="Conoce nuestra historia y el amor que ponemos en cada creación. En Margerie Bakery, combinamos la tradición con la innovación para ofrecerte experiencias de sabor únicas. Descubre quiénes somos y por qué amamos endulzar tus momentos.">
       <meta name="keywords" content="Historia pastelería, Tradición y innovación, Equipo creativo, Experiencia culinaria.">
       <title>Margerie Bakery | Sobre nosotros</title>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
       <link rel="stylesheet" href="../css/main.css">
       <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
@@ -55,7 +56,9 @@
     </header>
     <main>
         <section class="mainboxes">
+          <div data-aos="zoom-in">
             <h2>Sobre Nosotros</h2>
+          </div>
             <div class="containerMain">
                 <img src="../images/catering.jpg" alt="catering">
                 <p>&emsp;&emsp;Somos una pasteleria con 10 años de Trayectoria, enfocados al Catering para eventos. Fundamos nuestra primera sucursal en el 2013. A raiz de la pandemia nos hemos expandido al mercado online.</p><br>
@@ -68,24 +71,28 @@
         </section>
     </main>
     <footer>
-        <div>
-            <h3>Enlaces rapidos</h3>
-            <ul>
-                <li><a href="tienda.html">Tienda Online</a></li>
-                <li><a href="sucursales.html">Sucursales</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Redes Sociales</h3>
-            <a href="http://web.whatsapp.com" target="_blank"><img src="../images/whatsappicon.png" alt="iconwhatsapp"></a>
-            <a href="http://instagram.com" target="_blank"><img src="../images/instagramicon.png" alt="instagramicon"></a>
-        </div>
-        <div>
-            <p><strong>2024 Margerie Bakery, Todos los derechos reservados</strong></p>
-        </div>
-        <span class="buttonUp"><a href="#"><img src="../images/upbutton.png"></a></span>
-    </footer>
+      <div>
+          <h5>Enlaces rapidos</h5>
+          <ul>
+              <li><a href="../pages/tienda.html">Tienda Online</a></li>
+              <li><a href="../pages/sucursales.html">Sucursales</a></li>
+              <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+      <div>
+          <h5>Redes Sociales</h5>
+          <a href="http://web.whatsapp.com" target="_blank"><img src="../images/whatsappicon.png" alt="iconwhatsapp"></a>
+          <a href="http://instagram.com" target="_blank"><img src="../images/instagramicon.png" alt="instagramicon"></a>
+      </div>
+      <div>
+          <p><strong>2024 Margerie Bakery, Todos los derechos reservados</strong></p>
+      </div>
+      <span class="buttonUp"><a href="#"><img src="../images/upbutton.png"></a></span>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
