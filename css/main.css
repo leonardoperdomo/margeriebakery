@@ -73,13 +73,13 @@ header .icons-header {
 @media (max-width: 480px) {
   header .icons-header {
     max-width: unset;
-    margin: -10px -20px;
+    margin: -1px -20px;
   }
 }
 @media (max-width: 380px) {
   header .icons-header {
     max-width: unset;
-    margin: -10px -20px;
+    margin: -1px -20px;
   }
 }
 header .d-flex {
@@ -352,6 +352,13 @@ footer li {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  height: auto;
+}
+.containerContacto div {
+  padding: 10px;
+}
+.containerContacto iframe {
+  width: 90%;
   height: auto;
 }
 
