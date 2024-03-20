@@ -1,3 +1,11 @@
+.containerContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
 .formContacto{
     display: flex;
     flex-direction: column;

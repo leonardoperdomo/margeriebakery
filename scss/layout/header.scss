@@ -9,6 +9,7 @@ header{
     width: 100%;
     background-color: map-get($colores, primario);
     padding: 10px;
+    z-index: 1000000;
     @include media-query-mobile{
         flex-direction: column;
         max-height: 200px;
@@ -57,7 +58,7 @@ header{
 }
 
 .container-fluid{
-    height: 30px;
+    height: 60px;
     @include media-query-mobile{
         height: unset;
     }
