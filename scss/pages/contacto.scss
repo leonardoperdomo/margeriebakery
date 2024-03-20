@@ -4,6 +4,13 @@
     justify-content: center;
     flex-wrap: wrap;
     height: auto;
+        div{
+        padding: 10px;
+        }
+        iframe{
+            width: 90%;
+            height: auto;
+        }
 }
 
 .formContacto{

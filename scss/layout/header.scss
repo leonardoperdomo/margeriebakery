@@ -44,11 +44,11 @@ header{
             order: 6;
             @include media-query-mobile{
                 max-width: unset;
-                margin: -10px -20px;
+                margin: -1px -20px;
             }
             @include media-query-mobile-s{
                 max-width: unset;
-                margin: -10px -20px;
+                margin: -1px -20px;
             }
         }
         .d-flex{
